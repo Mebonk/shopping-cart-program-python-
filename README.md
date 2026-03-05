@@ -1,27 +1,46 @@
 # shopping-cart-program-python-
 a simple command-line shopping cart program written in Python. The program allows the user to enter food items and their prices, then calculates the total cost.
 
-foods = []
-prices = []
-total = 0
+# Shopping Cart Program (Python)
 
-while True:
-  food = input("enter a food to buy (q to quit): ")
-  if food.lower() == "q": # makes lower case Q = q
-    break
-  else:
-    price = float(input(f"enter the price of a {food}: $"))
-    foods.append(food) # append: add a single element to the end of an existing list
-    prices.append(price)
+## Overview
 
-print("----- YOUR CART -----")
+This is a simple command-line shopping cart program written in Python.
+The program allows the user to enter food items and their prices, then calculates the total cost.
 
-for food in foods:
-  print(food, end=" ")
+## Features
 
-for price in prices:
-  total += price # total = total + price
+* Add food items to a cart
+* Store items in lists
+* Calculate the total price
+* Exit the program using `q`
 
-print()
+## Technologies Used
+
+* Python
+* Lists
+* Loops
+* User input
+* f-strings
+
+## Example Output
+
+enter a food to buy (q to quit): pizza
+enter the price of a pizza: $8
+enter a food to buy (q to quit): burger
+enter the price of a burger: $5
+enter a food to buy (q to quit): q
+
+----- YOUR CART -----
+pizza burger
+
+ur total is: $13
+
+## How to Run
+
+1. Install Python
+2. Run the program:
+
+python shopping_cart.py
 
 print(f"ur total is: ${total}")
