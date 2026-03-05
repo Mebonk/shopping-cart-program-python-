@@ -1,11 +1,8 @@
-# shopping-cart-program-python-
-a simple command-line shopping cart program written in Python. The program allows the user to enter food items and their prices, then calculates the total cost.
-
 # Shopping Cart Program (Python)
 
 ## Overview
 
-This is a simple command-line shopping cart program written in Python.
+a simple command-line shopping cart program written in Python.
 The program allows the user to enter food items and their prices, then calculates the total cost.
 
 ## Features
